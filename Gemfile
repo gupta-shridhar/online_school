@@ -32,6 +32,10 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # Flexible authentication solution for Rails with Warden.
 gem 'devise'
 
+# Database multi-tenancy for Rack (and Rails) applications
+gem 'ros-apartment', require: 'apartment'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
